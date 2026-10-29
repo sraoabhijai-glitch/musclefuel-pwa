@@ -18,3 +18,14 @@ Data is stored in browser localStorage on the device. Export JSON backups regula
 
 ## Updating
 Edit files, commit to `main`, and GitHub Pages will republish. The service worker uses network-first caching for same-origin files, so online reloads can fetch updates.
+
+## v1.1 — Detailed meal guidance
+Meals now show all eight planned meals with preparation instructions, portion guidance, alternatives, and notes. The meal ingredient lists remain editable and drive nutrition totals. After uploading the new files to GitHub, reload the installed app while online to receive the update. Existing local tracking data is retained.
+
+
+## Meal checklist update (v1.2)
+- Tick individual foods in each meal; consumed nutrition updates per checked item.
+- Use 'Mark entire meal complete' to tick all ingredients at once.
+- Add an existing food with a quantity, or create a custom food by entering nutrition per 100 g/ml.
+- Individual food checkmarks are tracked by date. Planned ingredient quantity edits apply to the meal plan across dates.
+- When updating GitHub Pages, upload the contents of this folder and commit. The service worker cache version is bumped so clients can receive the updated files.
