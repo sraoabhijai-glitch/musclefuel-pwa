@@ -18,3 +18,5 @@
 .add-food-row select,.add-food-row input{width:100%;min-width:0;min-height:42px;padding:9px;border:1px solid #d8e2d8;border-radius:9px;background:white;font-size:14px}
 .custom-add{margin-top:10px}
 @media(max-width:390px){.food{grid-template-columns:26px minmax(0,1fr) 72px 30px;gap:5px;padding:9px 2px}.quantity{gap:3px}.quantity input{width:51px}.quantity small{font-size:11px}.add-food-row{grid-template-columns:minmax(0,1fr) 64px}.add-food-row button{grid-column:1/-1;width:100%}.add-food-row select,.add-food-row input{font-size:16px}}
+
+.settings-meal{border:1px solid #dbe7e0;border-radius:14px;padding:14px;margin:12px 0;background:#fff}.settings-meal summary{display:flex;justify-content:space-between;gap:10px;cursor:pointer;min-height:38px;align-items:center}.settings-meal textarea,.settings-meal input{width:100%;font:inherit;box-sizing:border-box;min-height:44px}.settings-meal textarea{padding:12px;border:1px solid #cbd8d0;border-radius:10px;resize:vertical}.settings-meal .field{display:block;margin:12px 0}#dialog{width:min(94vw,580px);max-height:85dvh;overflow:auto}#dialogContent{padding-bottom:15px}

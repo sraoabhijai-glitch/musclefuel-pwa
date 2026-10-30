@@ -29,3 +29,9 @@ Meals now show all eight planned meals with preparation instructions, portion gu
 - Add an existing food with a quantity, or create a custom food by entering nutrition per 100 g/ml.
 - Individual food checkmarks are tracked by date. Planned ingredient quantity edits apply to the meal plan across dates.
 - When updating GitHub Pages, upload the contents of this folder and commit. The service worker cache version is bumped so clients can receive the updated files.
+
+## v1.3 meal editor and reminders
+
+Open Settings to edit meal names, times, descriptions, instructions, alternatives, and nutrition targets. Add/delete meals there; manage each meal's food items in the Meals tab.
+
+Notification reminders are supported only while the app is actively running. **Background Web Push is not yet implemented**; see `NOTIFICATIONS.md` for iPhone limitations and required backend infrastructure.
